@@ -7,15 +7,15 @@ body {
 }
 
 #navbar {
-	margin-left: 10px;
+	margin-left: 0 10px 0 0;
 	height: 69px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
-	left: 0px;
+	/* position: fixed;
+	width: 100%;
 	top: 0px;
-	z-index: 2;
+	z-index: 2; */
 }
 
 #logo {
@@ -31,4 +31,25 @@ body {
 .navbar-link {
 	color: seashell;
 	text-decoration: underline;
+}
+
+#mission_background {
+	display: flex;
+	margin: auto;
+	position: relative;
+	height: 700px;
+	width: 1200px;
+}
+
+#mission_content {
+	position: absolute;
+	text-align: center;
+	top: 350px;
+	background-color: black;
+	width: 100%;
+}
+
+h2,
+h4 {
+	margin: 10px auto;
 }
