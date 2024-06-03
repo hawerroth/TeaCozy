@@ -49,6 +49,33 @@ body {
 	width: 100%;
 }
 
+#content_container {
+	width: 1000px;
+	margin: auto;
+}
+
+#content {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#content_cards {
+	margin-top: 16px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.content_card {
+	text-align: center;
+}
+
+.img_card {
+	width: 300px;
+	height: 200px;
+}
+
 h2,
 h4 {
 	margin: 10px auto;
