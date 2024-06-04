@@ -38,6 +38,7 @@ body {
 }
 
 #mission_background {
+	margin-top: 69px;
 	position: relative;
 }
 
@@ -123,6 +124,11 @@ body {
 	bottom: 0px;
 	right: 0px;
 	text-align: center;
+	line-height: 30px;
+}
+
+.copyright h5 {
+	margin-left: 20px;
 }
 
 h2,
