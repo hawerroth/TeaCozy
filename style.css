@@ -1,4 +1,5 @@
 body {
+	margin: 0px;
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
@@ -7,26 +8,29 @@ body {
 }
 
 #navbar {
-	margin-left: 0 10px 0 0;
+	background-color: black;
+	margin: 0px;
 	height: 69px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* position: fixed;
+	position: fixed;
 	width: 100%;
 	top: 0px;
-	z-index: 2; */
+	z-index: 2;
+	border-bottom: 1px solid seashell;
 }
 
 #logo {
 	height: 50px;
+	margin-left: 10px;
 }
 
 #nav_list {
+	margin-right: 10px;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
-	/* margin: auto 10px; */
+	gap: 24px;
 }
 .navbar-link {
 	color: seashell;
